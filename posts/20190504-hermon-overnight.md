@@ -12,7 +12,6 @@ layout: layouts/post.njk
 
 A quick overnight
 
-
 ![hermon-overnight](/img/20190503_095842.jpg)
 ![hermon-overnight](/img/20190503_103817.jpg)
 ![hermon-overnight](/img/20190503_113321.jpg)
