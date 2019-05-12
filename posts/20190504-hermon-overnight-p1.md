@@ -1,5 +1,5 @@
 ---
-title: Overnight Bikepacking in the North of Israel
+title: Overnight Bikepacking in the North of Israel - Part 1
 description: Easy overnight ride in the northern Golan bikepacking trip in the North of Israel
 date: 2019-05-04
 tags:
