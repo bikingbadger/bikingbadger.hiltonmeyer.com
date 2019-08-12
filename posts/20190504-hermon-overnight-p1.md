@@ -9,8 +9,6 @@ tags:
 layout: layouts/post.njk
 ---
 
-**Hermon Overnight - Part 1**
-
 ![hermon-overnight](https://res.cloudinary.com/bikepacking/image/upload/w_800/v1565167811/20190503_095842_g4obpo.jpg)
 
 A quick overnight trip into the northern Golan Heights in Israel. This was a spontaneous trip that would take in the highest point in Israel, the Hermon Mountain.... or so we thought. It seems there were a few "hills" on the way that would slow us down a bit.

@@ -9,8 +9,6 @@ tags:
 layout: layouts/post.njk
 ---
 
-**Hermon Overnight - Part 2**
-
 ![hermon-overnight](https://res.cloudinary.com/bikepacking/image/upload/w_800/v1565167838/20190504_082807_fd8qdw.jpg)
 
 Woke up nice and early, OK not really. Slept in a bit. Thats the great thing when it's not crazy hot. You can get up a bit later and ride all day without trying to dodge the sun during the warmest parts of the day. [Yesterday](/posts/20190504-hermon-overnight-p1) was actually quite chilly so had me reaching for my jacket by the end of the day when the wind was doing it's best to cut me in two. Luckily we woke up with not a breath of wind blowing so we slapped on the sunscreen and pushed off after packing up our stuff.

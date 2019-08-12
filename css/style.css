@@ -1,0 +1,106 @@
+:root {
+  --red: #c13664;
+  --yellow: #e6df61;
+  --brown: #b79265;
+  --green: #707755;
+  --blue: rgb(22, 58, 66);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "PT Serif", serif;
+}
+
+body {
+  background-color: var(--brown);
+  color: var(--blue);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--yellow);
+}
+
+/* Header Area
+*/
+header {
+  background-color: var(--red);
+  width: 100%;
+}
+
+header .home {
+  padding: 1rem;
+}
+
+header .home a {
+  font-size: 2rem;
+  color: var(--yellow);
+}
+
+/* Navigation Bar */
+.nav {
+  list-style: none;
+  margin-left: 1em;
+  position: sticky;
+  top: 0rem;
+}
+.nav-item {
+  display: inline-block;
+  margin-right: 1em;
+  color: var(--yellow);
+  text-decoration: none;
+}
+.nav-item a[href]:not(:hover) {
+  text-decoration: none;
+}
+.nav-item-active {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* Main Content */
+
+main {
+  margin: 1rem 3rem 0 3rem; 
+}
+
+main p{
+  text-align: justify;
+}
+
+/* Posts */
+
+.tmpl-post img{
+  display: block;
+  margin: 1rem auto;
+  width: 90%;
+  border: var(--blue) 0.3rem solid;
+  border-radius: 15px;
+}
+
+.tmpl-post h1{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.postlist{
+  list-style: none;
+}
+
+.postlist-item {
+  height: 2rem;
+}
+
+.postlist-date{
+  font-size: 0.75rem;
+  vertical-align: super;
+}
+
+

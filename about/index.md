@@ -5,6 +5,7 @@ tags:
   - nav
 navtitle: About
 templateClass: tmpl-post
+date: 2000-01-01
 ---
 
 Adventure has been something that started in high school with my love of sport and the outdoors. The love of the bike came from the freedom of being able to hop on the saddle and get away and into nature with a few peddle strokes. I had a dream of cycling from my home country of South Africa to Cairo. A dream I still harbor and will one day fulfill. This sense of adventure led me to visit Israel, a country I new very little about but didn't seem where everyone else was travelling. And here I stayed.
