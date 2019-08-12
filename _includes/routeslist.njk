@@ -1,0 +1,7 @@
+<ol reversed class="routelist" style="counter-reset: start-from {{ routeslist.length + 1 }}">
+{% for route in routeslist  %}
+  <li class="routelist-item{% if route.url == url %} routelist-item-active{% endif %}">
+    <a href="{{ route.url | url }}" class="routelist-link">{% if route.data.title %}{{ route.data.title }}{% else %}<code>{{ route.url }}</code>{% endif %}</a>
+  </li>
+{% endfor %}
+</ol>

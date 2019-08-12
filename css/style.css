@@ -3,7 +3,7 @@
   --yellow: #e6df61;
   --brown: #b79265;
   --green: #707755;
-  --blue: rgb(22, 58, 66);
+  --blue: rgb(0, 2, 129);
 }
 
 * {
@@ -31,7 +31,7 @@ a:hover {
 /* Header Area
 */
 header {
-  background-color: var(--red);
+  background-color: var(--blue);
   width: 100%;
 }
 
@@ -51,15 +51,18 @@ header .home a {
   position: sticky;
   top: 0rem;
 }
+
 .nav-item {
   display: inline-block;
   margin-right: 1em;
   color: var(--yellow);
   text-decoration: none;
 }
+
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
 }
+
 .nav-item-active {
   font-weight: 700;
   text-decoration: underline;
@@ -68,16 +71,15 @@ header .home a {
 /* Main Content */
 
 main {
-  margin: 1rem 3rem 0 3rem; 
+  margin: 1rem 3rem 0 3rem;
 }
 
-main p{
+main p {
   text-align: justify;
 }
 
 /* Posts */
-
-.tmpl-post img{
+.tmpl-post img {
   display: block;
   margin: 1rem auto;
   width: 90%;
@@ -85,12 +87,12 @@ main p{
   border-radius: 15px;
 }
 
-.tmpl-post h1{
+h1 {
   text-align: center;
   font-size: 1.5rem;
 }
 
-.postlist{
+.postlist {
   list-style: none;
 }
 
@@ -98,9 +100,25 @@ main p{
   height: 2rem;
 }
 
-.postlist-date{
+.postlist-date {
   font-size: 0.75rem;
   vertical-align: super;
 }
 
+/* Route */
 
+.routelist {
+  list-style: none;
+}
+
+.routelist-item {
+  height: 2rem;
+}
+
+.tmpl-route img {
+  display: block;
+  margin: 1rem auto;
+  width: 90%;
+  border: var(--blue) 0.3rem solid;
+  border-radius: 15px;
+}

@@ -1,0 +1,13 @@
+---
+layout: layouts/home.njk
+tags:
+  - nav
+navtitle: Routes
+permalink: /routes/
+date: 2000-01-01
+---
+
+<h1>Routes</h1>
+
+{% set routeslist = collections.routes %}
+{% include "routeslist.njk" %}
