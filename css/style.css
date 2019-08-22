@@ -1,9 +1,9 @@
 :root {
   --red: #c13664;
-  --yellow: #e6df61;
-  --brown: #b79265;
+  --yellow: #eee878;
+  --brown: #e2c29a;
   --green: #707755;
-  --blue: rgb(0, 2, 129);
+  --blue: rgb(22, 25, 155);
 }
 
 * {
@@ -121,4 +121,56 @@ h1 {
   width: 90%;
   border: var(--blue) 0.3rem solid;
   border-radius: 15px;
+}
+
+table.roundedCorners {
+  width: 60vw;
+  margin: auto;
+
+  /* Round the borders of entire table*/
+  border-collapse: separate;
+  border: 5px solid var(--brown);
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-spacing: 0;
+}
+
+table.roundedCorners th,
+table.roundedCorners td {
+  padding: 10px;
+  text-align: left;
+}
+
+table.roundedCorners thead th:first-child {
+  -moz-border-radius: 10px 0 0 0 !important;
+  border-radius: 10px 0 0 0 !important;
+}
+
+table.roundedCorners thead th:last-child {
+  -moz-border-radius: 0 10px 0 0 !important;
+  border-radius: 0 10px 0 0 !important;
+}
+
+table.roundedCorners thead {
+  background-color: var(--yellow);
+  border-top: none;
+
+}
+
+table.roundedCorners tbody tr:nth-child(even) {
+  background-color: var(--yellow);
+}
+
+table.roundedCorners tbody tr:nth-child(odd) {
+  background-color: var(--blue);
+  color: var(--yellow);
+}
+
+table.roundedCorners tbody tr:hover {
+  background-color: var(--brown);
+  color: var(--blue);
+}
+
+table.roundedCorners tr:last-child>td {
+  border-bottom: none;
 }
