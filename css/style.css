@@ -174,3 +174,13 @@ table.roundedCorners tbody tr:hover {
 table.roundedCorners tr:last-child>td {
   border-bottom: none;
 }
+
+/*
+Map related CSS
+*/
+
+#mapid {
+  height: 800px;
+  width: 80%;
+  margin: 1rem auto;
+}
