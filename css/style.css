@@ -1,23 +1,32 @@
 :root {
-  --red: #c13664;
-  --yellow: #eee878;
-  --brown: #e2c29a;
-  --green: #707755;
-  --blue: rgb(22, 25, 155);
+  --main-color: #1b17ff;
+  --bg-color: #ffffff;
+  --primary-color: #eb6e80;
+  --secondary-color: #70cccc;
+  --tertiary-color: #e6df61;
 }
 
+/*****************************************************************************************
+* Globals
+*****************************************************************************************/
 * {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: "PT Serif", serif;
+  font-family: "Montserrat", "PT Serif", serif;
 }
 
 body {
-  background-color: var(--brown);
-  color: var(--blue);
+  padding: 50px;
+  margin: 0 auto;
+  font-size: 18px;
+  background-color: var(--bg-color);
+  color: var(--main-color);
 }
 
+/*****************************************************************************************
+* Typography
+*****************************************************************************************/
 a {
   text-decoration: none;
   color: inherit;
@@ -25,50 +34,52 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: var(--yellow);
+  color: var(--secondary-color);
 }
 
-/* Header Area
-*/
-header {
-  background-color: var(--blue);
-  width: 100%;
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
 }
 
-header .home {
-  padding: 1rem;
-}
+/*****************************************************************************************
+* Layouts
+*****************************************************************************************/
 
-header .home a {
-  font-size: 2rem;
-  color: var(--yellow);
+/* Logo */
+.logo {
+  font-size: 3em;
+  text-align: end;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  padding: 20px;
 }
 
 /* Navigation Bar */
-.nav {
+.navigation-list {
   list-style: none;
-  margin-left: 1em;
+  text-align: center;
   position: sticky;
-  top: 0rem;
 }
 
-.nav-item {
+.navigation-item {
   display: inline-block;
+  text-decoration: none;
   margin-right: 1em;
-  color: var(--yellow);
+}
+
+.navigation-item a[href]:not(:hover) {
   text-decoration: none;
 }
 
-.nav-item a[href]:not(:hover) {
-  text-decoration: none;
-}
-
-.nav-item-active {
+.navigation-item-active {
   font-weight: 700;
   text-decoration: underline;
 }
 
-/* Main Content */
+/*****************************************************************************************
+* Content Styling
+*****************************************************************************************/
 
 main {
   margin: 1rem 3rem 0 3rem;
@@ -87,10 +98,9 @@ main p {
   border-radius: 15px;
 }
 
-h1 {
-  text-align: center;
-  font-size: 1.5rem;
-}
+/*****************************************************************************************
+* Components
+*****************************************************************************************/
 
 .postlist {
   list-style: none;
@@ -154,7 +164,6 @@ table.roundedCorners thead th:last-child {
 table.roundedCorners thead {
   background-color: var(--yellow);
   border-top: none;
-
 }
 
 table.roundedCorners tbody tr:nth-child(even) {
@@ -171,7 +180,7 @@ table.roundedCorners tbody tr:hover {
   color: var(--blue);
 }
 
-table.roundedCorners tr:last-child>td {
+table.roundedCorners tr:last-child > td {
   border-bottom: none;
 }
 
