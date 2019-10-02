@@ -7,6 +7,7 @@ tags:
   - trip
   - overnight
   - sea-of-galilee
+  - article
 layout: layouts/post.njk
 ---
 Three days of riding. Three days being out in nature. Three days of camping. Check on all three and off we were for an awesome trip around the Sea of Galilee. This was my first multiday trip with everything on me since that first trip across Israel over 10 years ago, so excitement was high trying to remember that trip.

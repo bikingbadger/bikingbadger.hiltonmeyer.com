@@ -6,6 +6,7 @@ tags:
   - galilee
   - trip
   - day
+  - article
 layout: layouts/post.njk
 ---
 **First Outing**

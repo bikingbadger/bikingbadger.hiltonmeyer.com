@@ -6,6 +6,7 @@ tags:
   - golan
   - trip
   - overnight
+  - article
 layout: layouts/post.njk
 ---
 
