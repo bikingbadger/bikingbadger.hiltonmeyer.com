@@ -90,6 +90,8 @@ main {
 
 p {
   text-align: justify;
+  line-height: 1.5rem;
+  padding-top: 1rem;
 }
 
 /* Posts */
