@@ -82,10 +82,11 @@ h1 {
 *****************************************************************************************/
 
 main {
-  margin: 1rem 3rem 0 3rem;
+  margin: 1rem auto;
+  width: 80vw;  
 }
 
-main p {
+p {
   text-align: justify;
 }
 
