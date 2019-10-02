@@ -7,6 +7,7 @@ tags:
   - gear
   - overnight
   - sea-of-galilee
+  - article
 layout: layouts/post.njk
 ---
 My setup was to get out on the first outing using what I had lying around without having to buy too much stuff. Having invested in the Apidura seatbag and handlebar bag I wanted to get out there and start making changes based on experiences out in nature. Due to space concerns I had to take a back pack so you can see what I was basically carrying on me and not on the bike below.

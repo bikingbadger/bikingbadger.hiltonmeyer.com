@@ -3,11 +3,15 @@ layout: layouts/home.njk
 tags:
   - nav
 navtitle: Posts
-permalink: /posts/
 date: 2000-01-30
 ---
-
 <h1>Posts</h1>
 
-{% set postslist = collections.posts %}
-{% include "postslist.njk" %}
+<section class="article-list">
+{%- for article in collections.article | reverse -%}
+  <div  class="article-card">
+    <a href={{ article.url }}><h2 class="article-card-heading">{{ article.data.title }}</h1></a>
+    <p class="article-card-description">{{ article.data.description }}</p>
+  </div>
+{%- endfor -%}
+<section class="article-list">

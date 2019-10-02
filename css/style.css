@@ -4,6 +4,26 @@
   --primary-color: #eb6e80;
   --secondary-color: #70cccc;
   --tertiary-color: #e6df61;
+
+  --ff: "Montserrat";
+  --ff-code: "Space Mono";
+
+  --clr-bg: #ffffff;
+  --clr-primary: #1b17ff;
+  --clr-secondary: #1787ff;
+  --clr-secondary-lt: #aef5f5;
+  --clr-complimentary: #fbff17;
+
+  --short-logo: "hm";
+
+  --txt-width: 70vw;
+  --txt-title: 3rem;
+  --txt-heading: 2rem;
+  --txt-subheading: 1.5rem;
+  --txt-text: 1rem;
+  --txt-small: 0.8rem;
+
+  --brdr-rad: 1rem;
 }
 
 /*****************************************************************************************
@@ -53,7 +73,8 @@ h1 {
   font-size: 3em;
   text-align: end;
   background-color: var(--secondary-color);
-  border-radius: 10px;
+  border-radius: var(--brdr-rad);
+  border-top-left-radius: 0;
   padding: 20px;
 }
 
@@ -198,3 +219,40 @@ Map related CSS
   width: 80%;
   margin: 1rem auto;
 }
+
+
+/* Cards for post layout */
+.article-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.article-card {
+  text-decoration: none;
+  margin: 0.3rem;
+  background-color: var(--clr-secondary);
+  border-radius: var(--brdr-rad);
+  border-top-left-radius: 0;
+  text-align: center;
+  min-height: 8rem;
+}
+
+.article-card-heading {
+  margin: 0.1rem;
+  text-align: center;
+  padding: 0;
+  color: var(--clr-primary);
+}
+
+.article-card-description {
+  font-size: var(--txt-small);
+  text-align: center;
+  margin: 0.3rem;
+}
+
+.article-heading {
+  padding: 0.5rem 1.5rem;
+}
+/*===================================================*/

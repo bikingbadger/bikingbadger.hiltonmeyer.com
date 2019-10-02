@@ -6,6 +6,7 @@ tags:
   - jerusalem
   - challenge
   - 20 peaks
+  - article
 layout: layouts/post.njk
 ---
 There's nothing like a challenge to get the training and motivation up and running, so I decided to sign up for the [Twenty Peaks Challenge](https://twentypeaks.com/) here in Israel. This involved doing 20 selected climbs in 6 months. Doesn't sound that tough until I realised that works out to doing one of these climbs every weekend more or less. With me having the kids every other weekend the challenge has gone up slightly but heck it should be good fun and I get an awesome jersey in the process. I've actually looked at doing a bikepacking trip on the road that would take in 14 of these climbs in around 4 days, so we'll see how that evolves but pretty keen. As I said this would be a motivator to get back into shape and of course having an aim for a challenge like that could be just the thing. I'm also interested in the [Transpyraness 2020](https://www.transiberica.cc/transpyrenees/) so there might be a way of wrapping all of these up together and hoping my knee's hold together.
