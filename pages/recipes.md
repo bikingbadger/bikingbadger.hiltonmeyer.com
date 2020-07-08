@@ -1,10 +1,10 @@
 ---
-title: Home Made Recipes
+title: Recipes
 description: Recipes for bikepacking
 date: 2020-07-08
 tags:
-- nav
-navtitle: Home Made Recipes
+    - nav
+navtitle: Recipes
 templateClass: tmpl-recipes
 layout: layouts/post.njk
 ---
