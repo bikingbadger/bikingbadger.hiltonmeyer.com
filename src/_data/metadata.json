@@ -1,0 +1,16 @@
+{
+  "title": "biking badger",
+  "url": "https://bikingbadger.com",
+  "description": "Blog about my adventures in bikepacking around Israel and abroad",
+  "feed": {
+    "subtitle": "Blog about my adventures in bikepacking around Israel and abroad",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://bikingbadger.com/feed/feed.xml",
+    "id": "https://bikingbadger.com/"
+  },
+  "author": {
+    "name": "Hilton Meyer",
+    "email": "bikepacking@hiltonmeyer.com"
+  }
+}

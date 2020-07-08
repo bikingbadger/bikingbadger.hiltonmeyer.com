@@ -1,0 +1,39 @@
+@tailwind base;
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  @apply text-3xl font-semibold;
+}
+
+h2 {
+  @apply text-2xl font-semibold;
+}
+
+#nav-toggle:checked ~ .left-menu {
+  display: grid;
+  grid-row: 2;
+  grid-column: span 1 / span 3;
+}
+
+p > img {
+  @apply block mx-auto  border-blue-500 border-2 rounded;
+}
+
+ul {
+  @apply list-inside list-disc;
+}
+
+a {
+  @apply underline text-teal-500;
+}
+
+a:hover {
+  @apply text-gray-100 bg-teal-500 no-underline;
+}
+
+@tailwind components;
+
+@tailwind utilities;
