@@ -3,10 +3,12 @@
   "version": "5.0.0",
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
-    "serve": "npx eleventy --serve",
-    "build": "npx eleventy",
-    "watch": "npx eleventy --watch",
-    "debug": "DEBUG=* npx eleventy"
+    "serve": "npm-run-all --parallel bundle:*",
+    "bundle:eleventy": "eleventy --serve --quiet",
+    "bundle:tailwind": "parcel src/assets/css/* --out-dir dist/assets/css",    
+    "build": "run-s prod:*",
+    "prod:eleventy": "eleventy",
+    "prod:tailwind": "parcel build src/assets/css/* --out-dir dist/assets/css"
   },
   "repository": {
     "type": "git",
