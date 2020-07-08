@@ -1,0 +1,22 @@
+---
+layout: layouts/home.njk
+tags:
+  - nav
+navtitle: Home
+title: "Hilton Meyer"
+date: 1999-12-31
+---
+<p>My little digital playground of bikepacking trips I'm doing in Israel and eventually also abroad. My setup is generally as simple as possible and I have no problem slapping the bags onto my road bike, mountain bike or gravel bike. 
+That's the beauty of bikepacking in my eyes and I would really not want to starting chasing my own tail and trying to put it into some kind of category. It should just be a free come and you go type of ride from a day all the way to months at t a time.
+You could call it touring, who cares. The most important thing is to get out and get your arse on the saddle, drink in those amazing views and meet some interesting people along the way.</p>
+
+<h1>Latest Posts</h1>
+
+<section class="article-list">
+{%- for article in collections.article | reverse -%}
+  <div  class="article-card">
+    <a href={{ article.url }}><h2 class="article-card-heading">{{ article.data.title }}</h1></a>
+    <p class="article-card-description">{{ article.data.description }}</p>
+  </div>
+{%- endfor -%}
+<section class="article-list">
