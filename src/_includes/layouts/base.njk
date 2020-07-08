@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta
       name="Description"
-      content="{{ renderData.description or description or metadata.description }}"
-    />
-    <link rel="stylesheet" href="{{ '/css/style.css' | url }}" />
+      content="{{ renderData.description or description or metadata.description }}"/>
+    <link rel="stylesheet" href="/assets/tailwind.css"/>
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
       integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-      crossorigin=""
-    />
+      crossorigin=""/>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -26,14 +24,12 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "UA-80549791-2");
     </script>
 
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Space+Mono:400,700"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
   </head>
 
   <body>
@@ -41,11 +37,11 @@
       <h1 class="logo">{{ metadata.title }}</h1>
       <ul class="navigation-list">
         {%- for nav in collections.nav -%}
-        <li
+          <li
           class="navigation-item{% if nav.url == page.url %} navigation-item-active{% endif %}"
         >
-          <a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
-        </li>
+            <a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
+          </li>
         {%- endfor -%}
       </ul>
     </header>
