@@ -24,7 +24,7 @@
       </label>
       <div class="left-menu px-2 self-center hidden lg:block">
         {%- for nav in collections.nav -%}
-          <a class="hover:text-white no-underline uppercase mx-2 " href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
+          <a class="text-teal-300 hover:text-white no-underline uppercase mx-2 " href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
         {%- endfor -%}
       </div>
       <h1 class="text-teal-100 font-black text-2xl md:text-5xl uppercase tracking-tight self-center">{{ metadata.title }}</h1>
