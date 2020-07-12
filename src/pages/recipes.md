@@ -3,7 +3,7 @@ title: Recipes
 description: Recipes for bikepacking
 date: 2020-07-08
 tags:
-    - nav
+    - hidden
 navtitle: Recipes
 templateClass: tmpl-recipes
 layout: layouts/post.njk
