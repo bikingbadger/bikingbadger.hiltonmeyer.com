@@ -9,4 +9,4 @@ tags:
 layout: layouts/route.njk
 ---
 
-![incense-route](https://res.cloudinary.com/bikepacking/image/upload/w_800/v1565607883/IncenseTrailFull_agtxpn.jpg)
+![incense-route](https://res.cloudinary.com/bikepacking/image/upload/f_auto,q_auto,c_scale,w_2048,dpr_auto/v1565607883/IncenseTrailFull_agtxpn.jpg)
