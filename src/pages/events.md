@@ -9,6 +9,10 @@ templateClass: tmpl-post
 layout: layouts/post.njk
 ---
 
+### Febuary
+
+[Vic Divide, Australia](https://www.facebook.com/groups/630936843996846/)
+
 ### June
 
 [Vento Trail, Italy](https://english.venetotrail.eu/trail/)
@@ -16,3 +20,11 @@ layout: layouts/post.njk
 ### September
 
 [Dukes Weekend, Scotland](https://www.dukesweekender.com/)
+[Tuscany Trail, Italy](https://www.tuscanytrail.it/en/)
+
+
+### ???
+
+[Tour Divide](#)
+[Navad 1000](#)
+[Colorado Trail](#)
