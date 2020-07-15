@@ -8,28 +8,31 @@
       name="Description"
       content="{{ renderData.description or description or metadata.description }}"/>
         <link rel="stylesheet" href="/assets/css/tailwind.css"/>
+
+        <style>
+            .splash {
+                /* The image used */
+                background-image: url("https://res.cloudinary.com/bikepacking/image/upload/f_auto,q_auto,c_scale,w_2048,dpr_auto,o_50/v1594804224/site/20180209_150706_gpdsee.jpg");
+            }
+        </style>
     </head>
 
-    <body class="bg-gray-100 text-gray-900 leading-normal text-base tracking-normal">
+    <body class="bg-gray-300 text-gray-900 leading-normal text-base tracking-normal">
+        <header class="grid h-screen splash bg-fixed bg-center bg-no-repeat bg-cover justify-center" >
 
-        {# style="grid-template-columns:1fr auto 1fr;" #}
-        <header class="h-screen bg-teal-500 grid" >
-            {# <input type="checkbox" id="nav-toggle" class="hidden">
-      <label for="nav-toggle" class="inline-block self-center ml-1 lg:hidden" >
-        <img src="/assets/img/hamburger-menu.svg" alt="">
-      </label> #}
             <div class="grid justify-center h-screen">
-                <h1 class="text-teal-100 font-black text-4xl md:text-6xl uppercase self-center">{{ metadata.title }}</h1>
+                <h1 class="self-center text-6xl font-black text-teal-900">Biking Badger</h1>
             </div>
-            <div class="bg-teal-300  left-menu -mt-6 grid justify-center grid-flow-col">
+
+        </header>
+
+        <main class="container m-auto bg-white">
+            <div class="sticky w-full top-0 bg-gray-300 grid justify-center grid-flow-col">
                 {%- for nav in collections.nav -%}
                     <a class="text-teal-800 hover:text-white no-underline uppercase mx-2 " href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
                 {%- endfor -%}
             </div>
-        </header>
-
-        <main class="container mx-auto ">
-            {{ content | safe }}
+            <div class="m-4 ">{{ content | safe }}</div>
         </main>
 
         <footer></footer>
