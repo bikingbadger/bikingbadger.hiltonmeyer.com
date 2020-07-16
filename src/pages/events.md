@@ -17,11 +17,20 @@ layout: layouts/post.njk
 
 [Vento Trail, Italy](https://english.venetotrail.eu/trail/)
 
+### August
+
+[Transpyrenees, Spain](https://www.transiberica.cc/transpyrenees/)
+
 ### September
 
 [Dukes Weekend, Scotland](https://www.dukesweekender.com/)
 [Tuscany Trail, Italy](https://www.tuscanytrail.it/en/)
+[Badlands, Spain](https://www.transiberica.cc/badlands/)
+[Transibérica,Spain](https://www.transiberica.cc/transiberica/)
 
+### November
+
+[Across Andes, Chile](http://acrossandes.cc/)
 
 ### ???
 
