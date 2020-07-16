@@ -3,7 +3,7 @@ layout: layouts/home.njk
 tags:
   - nav
 navtitle: Home
-title: "Hilton Meyer"
+title: "Biking Badger"
 date: 1999-12-31
 ---
 ## About
