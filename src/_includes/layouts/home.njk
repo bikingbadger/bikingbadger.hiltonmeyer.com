@@ -3,24 +3,25 @@
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>{{ renderData.title or title or metadata.title }}</title>
+        <title>{{ metadata.title }}</title>
         <meta
       name="Description"
-      content="{{ renderData.description or description or metadata.description }}"/>
+      content="{{ metadata.description }}"/>
         <link rel="stylesheet" href="/assets/css/tailwind.css"/>
 
         <style>
             .splash {
                 /* The image used */
-                background-image: url("https://res.cloudinary.com/bikepacking/image/upload/f_auto,q_auto,c_scale,w_2048,dpr_auto,o_50/v1594804224/site/20180209_150706_gpdsee.jpg");
+                background-image: url("https://res.cloudinary.com/bikepacking/image/upload/f_auto,q_auto,c_scale,w_2048,dpr_auto/v1594804224/site/20180209_150706_gpdsee.jpg");
             }
         </style>
     </head>
 
     <body class="bg-teal-300 text-teal-900 leading-normal text-base tracking-normal">
         <header class="grid h-screen splash bg-fixed lg:bg-center bg-no-repeat bg-cover justify-center">
-            <div class="grid justify-center h-screen">
-                <h1 class="self-center md:text-6xl font-black text-teal-900 uppercase">Biking Badger</h1>
+            <div class="h-screen grid content-center">
+                <h1 class="md:text-6xl font-black text-teal-900 uppercase text-center">Biking Badger</h1>
+                <p class="font-black text-teal-900 text-center">israel bikepacking adventures</p>
             </div>
         </header>
 
