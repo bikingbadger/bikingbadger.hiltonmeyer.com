@@ -12,6 +12,7 @@ layout: layouts/post.njk
 ### Febuary
 
 [Vic Divide, Australia](https://www.facebook.com/groups/630936843996846/)
+[Race Around Rwanda, Rwanda](http://racearoundrwanda.com/)
 
 ### June
 
