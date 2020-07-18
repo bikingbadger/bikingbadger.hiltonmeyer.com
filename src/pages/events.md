@@ -38,3 +38,4 @@ layout: layouts/post.njk
 [Tour Divide](#)
 [Navad 1000](#)
 [Colorado Trail](#)
+[Japanese Odyssey](http://www.japanese-odyssey.com/)
