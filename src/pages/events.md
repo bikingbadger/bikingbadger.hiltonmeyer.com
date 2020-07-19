@@ -29,6 +29,10 @@ layout: layouts/post.njk
 [Badlands, Spain](https://www.transiberica.cc/badlands/)
 [Transibérica,Spain](https://www.transiberica.cc/transiberica/)
 
+### October
+
+[Rad Race 96, France](https://www.rad-race.com/booking-96hours-2020)
+
 ### November
 
 [Across Andes, Chile](http://acrossandes.cc/)
