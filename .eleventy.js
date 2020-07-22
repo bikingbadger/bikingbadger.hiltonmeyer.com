@@ -34,6 +34,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("src/assets/img");
   eleventyConfig.addPassthroughCopy("src/img");
+  eleventyConfig.addPassthroughCopy("src/assets/geojson");
 
   /**************** Markdown Plugins********************/
   let markdownIt = require("markdown-it");
