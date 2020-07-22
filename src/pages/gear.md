@@ -14,3 +14,4 @@ permalink: "gear/"
 [King Cage Kargo Cage + Bag](https://www.bike24.com/p2119378.html)
 [Renthal Apex 35 Stem - 6° ](https://www.bike24.com/p2180080.html)
 [Renthal Fatbar Lite 35 Riser Handlebar - gold](https://www.bike24.com/p2179932.html)
+Sleeping Bag: Cumulus X-Lite 200
