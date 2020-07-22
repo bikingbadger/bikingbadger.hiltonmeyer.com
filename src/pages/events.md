@@ -7,6 +7,7 @@ tags:
 navtitle: Gear
 templateClass: tmpl-post
 layout: layouts/post.njk
+permalink: "events/"
 ---
 
 ### Febuary

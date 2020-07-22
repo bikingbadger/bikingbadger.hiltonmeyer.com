@@ -7,6 +7,7 @@ tags:
 navtitle: Recipes
 templateClass: tmpl-recipes
 layout: layouts/post.njk
+permalink: "recipes/"
 ---
 ## Shoddyade energy drink
 

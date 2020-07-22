@@ -7,6 +7,7 @@ tags:
 navtitle: Gear
 templateClass: tmpl-post
 layout: layouts/post.njk
+permalink: "gear/"
 ---
 [GPS Unit - Wahoo Roam](https://www.wahoofitness.com/devices/bike-computers/gps-elemnt-roam)
 [Paul Klamper Disc Brakes](https://www.paulcomp.com/shop/components/brakes/disc-brakes/i-s-klamper/)

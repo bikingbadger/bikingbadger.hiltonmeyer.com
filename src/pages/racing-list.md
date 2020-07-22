@@ -7,6 +7,7 @@ tags:
 navtitle: Racing Checklist
 templateClass: tmpl-checklist
 layout: layouts/post.njk
+permalink: "racing/"
 ---
 
 - Gear
