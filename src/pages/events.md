@@ -18,6 +18,10 @@ layout: layouts/post.njk
 
 [Vento Trail, Italy](https://english.venetotrail.eu/trail/)
 
+### July 
+
+[Three Peaks Bike Race, Europe](https://www.adventurebikeracing.com/threepeaksbikerace/)
+
 ### August
 
 [Transpyrenees, Spain](https://www.transiberica.cc/transpyrenees/)
