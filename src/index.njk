@@ -1,0 +1,24 @@
+---
+layout: layouts/home.njk
+tags:
+  - nav
+navtitle: Home
+title: "Biking Badger"
+date: 1999-12-31
+---
+<div class="md:my-16 md:mx-8 md:text-justify md:text-lg leading-relaxed">My digital playground for sharing my Israel bikepacking trips and eventually also abroad. I like to keep things as simple as possible and I have no problem slapping the bags onto my road bike, mountain bike or gravel bike and heading off in the direction of the sunset. That's the beauty of bikepacking in my eyes and I would really not want to start chasing my own tail and trying to put bikepacking into some kind of category of what you can and can't do. It should just be a free come and you go type of ride from a day all the way to months at a time. Why try and pin something down when you should rather just be encouraging people to get out there. You could call it touring, who cares. The most important thing is to get out and get your arse on the saddle, drink in those amazing views and meet some interesting people along the way. </div>
+
+<div class="h-48 bg-no-repeat bg-cover md:h-screen md:bg-fixed rounded" style="background-image: url('https://res.cloudinary.com/bikepacking/image/upload/f_auto,q_auto,c_scale,w_2048,dpr_auto/img_20171025_101547-01_bxuztf.jpg')"></div>
+
+<h2>Latest Articles</h2>
+
+<section>
+  {%- for article in collections.article | currentContent | head(3) -%}
+    <div>
+      <h3 class="md:my-4 md:mx-8 md:text-justify md:text-lg leading-relaxed">{{ article.data.title }}</h3>
+      <p class="md:my-4 md:mx-8 md:text-justify md:text-lg leading-relaxed">{{ article.data.description }}
+        <a href={{ article.url }}>...</a>
+      </p>
+    </div>
+  {%- endfor -%}
+  <section>

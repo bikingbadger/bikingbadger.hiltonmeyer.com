@@ -3,3 +3,4 @@ package-lock.json
 drafts
 dist
 .cache
+.vscode
