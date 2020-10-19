@@ -8,6 +8,7 @@ tags:
   - overnight
   - article
 layout: layouts/post.njk
+permalink: posts/hermon-overnight-1.html
 ---
 
 ![hermon-overnight](https://res.cloudinary.com/bikepacking/image/upload/f_auto,q_auto,c_scale,w_2048,dpr_auto/v1565167811/20190503_095842_g4obpo.jpg)

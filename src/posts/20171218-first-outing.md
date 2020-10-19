@@ -8,6 +8,7 @@ tags:
   - day
   - article
 layout: layouts/post.njk
+permalink: posts/first-outing.html
 ---
 **First Outing**
 
