@@ -9,6 +9,7 @@ tags:
   - sea-of-galilee
   - article
 layout: layouts/post.njk
+permalink: posts/hard-lessons.html
 ---
 This trip was my first solo adventure into bikepacking so I was a bit apprehensive but also excited to see how things go. I decided to really get my weight down on this ride firstly swapping to my mountain bike that has a front shock. It's carbon so definitely lost quite a bit of weight right there. I slimmed everything down and all said and told I was 7kg under the last [Sea of Galilee](20171220-sea-of-galilee-gear.html) trip. So things were looking good to start with but I had a few valuable lessons to learn. Starting out a bit later than I planned I was not playing catch up and really held myself back as much as possible. This route has plenty of climbing and that was before the little surprises came up. I had a descent breakfast and set off. The weather was great and even on the cold side a touch but perfect for climbing without overheating like a hamster in a microwave (no I have never put a hamster in a microwave).
 
