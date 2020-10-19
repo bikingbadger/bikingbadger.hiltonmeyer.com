@@ -6,6 +6,7 @@ tags:
   - 20 peaks
   - article
 layout: layouts/post.njk
+permalink: posts/winter-2020.html
 ---
 Been far too long since my last update. I guess 2020 has been a crazy year for most people and for me it was no different. I had been aiming for the Holyland Challenge (HLC), a bikepacking race across Israel but due to the lockdown and having kids at home I pulled out at the last minute even though the race has gone ahead. I just didn't feel that it was the right thing to do personally but that is my own opinion and I have been following the [race live](http://trackleaders.com/holyland20) with great interest and I may say a bit of envy. But things are the way they are and we can only look ahead. 
 

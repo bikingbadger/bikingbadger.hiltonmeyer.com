@@ -9,6 +9,7 @@ tags:
   - galilee-galop
   - article
 layout: layouts/post.njk
+permalink: posts/desert-dash.html
 ---
 Your comfort zone isn't the place to learn about yourself or seeing where your limit's really are. This year I am trying to go deeper in what I am doing without taking on new hobbies or activities. Bikepacking is on that list of hobbies I want to get into deeper without adding stuff but more about taking on the experience of the rides. I want to use my current setup, even though I dream and plan on new equipment, I want to use what I have. To help drive my creativity and enjoy bikepacking for what it is and not for the stuff associated with it.
 
