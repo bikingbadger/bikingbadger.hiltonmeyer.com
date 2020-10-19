@@ -15,7 +15,9 @@ date: 1999-12-31
 <section>
   {%- for article in collections.article | currentContent | head(3) -%}
     <div>
-      <h3 class="md:my-4 md:mx-8 md:text-justify md:text-lg leading-relaxed">{{ article.data.title }}</h3>
+      <h3 class="md:my-4 md:mx-8 md:text-justify md:text-xl leading-relaxed">
+        <a href={{ article.url }}>{{ article.data.title }}</a>
+      </h3>
       <p class="md:my-4 md:mx-8 md:text-justify md:text-lg leading-relaxed">{{ article.data.description }}
         <a href={{ article.url }}>...</a>
       </p>
