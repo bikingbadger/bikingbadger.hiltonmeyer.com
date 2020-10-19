@@ -4,3 +4,4 @@ drafts
 dist
 .cache
 .vscode
+.parcel-cache
