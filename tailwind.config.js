@@ -1,7 +1,5 @@
 module.exports = {
-  purge: ["./src/**/*.html",
-  "./src/**/*.md",
-  "./src/**/*.njk"],
+  purge: ["./src/**/*.html", "./src/**/*.md", "./src/**/*.njk"],
   theme: {
     extend: {
       colors: {
