@@ -41,6 +41,6 @@
     "tailwindcss": "^1.4.6"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0"
+    "@fullhuman/postcss-purgecss": "^3.0.0"
   }
 }
