@@ -13,14 +13,12 @@ date: 1999-12-31
 <h2>Latest Articles</h2>
 
 <section>
-    {%- for article in collections.article | currentContent | head(3) -%}
+    {%- for article in collections.article | currentContent | reverse | head(3) -%}
         <div>
             <h3>
                 <a href={{ article.url }}>{{ article.data.title }}</a>
             </h3>
-            <p class="md:text-lg leading-relaxed">{{ article.data.description }}
-                <a href={{ article.url }}>...</a>
-            </p>
+            <p class="md:text-lg leading-relaxed">{{ article.templateContent  | safe}}</p>
         </div>
     {%- endfor -%}
     <section>
