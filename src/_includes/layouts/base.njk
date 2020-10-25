@@ -7,23 +7,43 @@
     <meta
       name="Description"
       content="{{ metadata.description }}"/>
+    <!-- Open graph -->
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description or title }}">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="{{ cover }}"/>
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="675" />
+  <!-- Twitter -->
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@biking_badger">
+  <meta name="twitter:description" content="{{ description or title }}">
+  <meta name="twitter:image" content="{{ cover }}">
+  <meta name="twitter:creator" content="@biking_badger">
+
+    {% if ignore %}
+      <meta name="robots" content="noindex"/>
+    {% endif %}
     <link rel="stylesheet" href="/assets/css/tailwind.css"/>
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
       integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
       crossorigin=""/>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80549791-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
+    {% if env.isProd %}
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80549791-2"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-      gtag('config', 'UA-80549791-2');
-    </script>
+        gtag('config', 'UA-80549791-2');
+      </script>
+    {% endif %}
   </head>
 
   <body class="bg-teal-300 text-teal-900 leading-normal text-base tracking-normal">
