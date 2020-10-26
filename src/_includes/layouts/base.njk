@@ -8,19 +8,19 @@
       name="Description"
       content="{{ metadata.description }}"/>
     <!-- Open graph -->
-  <meta property="og:title" content="{{ title }}">
-  <meta property="og:description" content="{{ description or title }}">
-  <meta property="og:type" content="article">
-  <meta property="og:image" content="{{ cover }}"/>
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="675" />
-  <!-- Twitter -->
-  <meta name="twitter:title" content="{{ title }}">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@biking_badger">
-  <meta name="twitter:description" content="{{ description or title }}">
-  <meta name="twitter:image" content="{{ cover }}">
-  <meta name="twitter:creator" content="@biking_badger">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description or title }}">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="{{ cover }}"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="675"/>
+    <!-- Twitter -->
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@biking_badger">
+    <meta name="twitter:description" content="{{ description or title }}">
+    <meta name="twitter:image" content="{{ cover }}">
+    <meta name="twitter:creator" content="@biking_badger">
 
     {% if ignore %}
       <meta name="robots" content="noindex"/>
@@ -46,15 +46,15 @@
     {% endif %}
   </head>
 
-  <body class="bg-teal-300 text-teal-900 leading-normal text-base tracking-normal">
+  <body class="bg-gray-100 text-grey-900 leading-normal text-base tracking-normal">
 
-    <header class="grid bg-fixed lg:bg-center bg-no-repeat bg-cover justify-center">
+    <header class="grid bg-fixed lg:bg-center bg-no-repeat bg-cover justify-center ">
       <h1 class="md:text-6xl font-black text-teal-900 uppercase text-center">Biking Badger</h1>
       <div class="font-black text-teal-900 text-center p-4">israel bikepacking adventures</div>
     </header>
 
     <main class="container mx-auto">
-      <div class="sticky w-full top-0 bg-teal-300 grid justify-center grid-flow-col">
+      <div class="sticky w-full top-0 bg-teal-300 text-teal-900 grid justify-center grid-flow-col">
         {%- for nav in collections.nav -%}
           <a class="text-teal-800 hover:text-white no-underline uppercase mx-2 " href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
         {%- endfor -%}

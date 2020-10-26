@@ -9,15 +9,15 @@ html {
 }
 
 h1 {
-  @apply text-3xl font-semibold;
+  @apply text-5xl font-semibold text-teal-900;
 }
 
 h2 {
-  @apply text-2xl font-semibold;
+  @apply text-4xl font-semibold text-teal-900;
 }
 
 h3 {
-  @apply text-xl font-semibold;
+  @apply text-3xl font-semibold text-teal-900;
 }
 
 #nav-toggle:checked ~ .left-menu {
@@ -48,12 +48,12 @@ a:hover {
 
 #mapid {
   height: 70vh;
-  margin: 1rem auto;
 }
 
 @screen md {
   p {
-    @apply py-4 text-justify text-lg leading-8;
+    @apply text-xl leading-loose;
+    max-width: min(70ch,100%);
   }
 }
 
