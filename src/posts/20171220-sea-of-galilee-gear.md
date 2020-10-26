@@ -15,7 +15,8 @@ My setup was to get out on the first outing using what I had lying around withou
 
 ![image](/img/20171214_195801-01.jpeg)
 
-**Person (7.8 kg)**
+<div>
+<h4 class="font-black">Person (7.8 kg)</h4>
 
   * Backpack 1240g
   * Bladder 215g (Filled 2000-3000g)
@@ -41,16 +42,20 @@ My setup was to get out on the first outing using what I had lying around withou
   * Chain Breaker 77g
   * Headlight 87g
 
-![image](/img/20171214_201903-01.jpeg)
 
-**Handlebar (1.6 kg)**
+
+</div>
+
+<div>
+<h4 class="font-black">Handlebar (1.6 kg)</h4>
+
   * Jacket 500g
   * Stove Gas 300g
   * Stove 108g
   * Pot 490g
   * Battery 263g
 
-**Seatbag  (3.9 kg)**
+<h4 class="font-black">Seatbag  (3.9 kg)</h4>
 
   * Tent 1675g
   * Sleeping bag 767g
@@ -64,11 +69,13 @@ My setup was to get out on the first outing using what I had lying around withou
   * Beanie 59g
   * Toothbrush 18g
   * Deodrant 30g
-
-![image](/img/20171214_211228-02.jpeg)
-
   * Bottles 1l 105g x2
   * Water 2000g
   * Tent Poles 963g
+</div>
 
-So as you can see this is not lightweight setup at all but rather just getting out there. I've already highlighted a few things that I will definitely start taking weight off. The sleeping setup is my first concern and also obviously stuff that I took that wasn't really needed, such as a the leatherman and extra un-used clothing. The jacket could really get slimmed down.
+![image](/img/20171214_201903-01.jpeg)
+
+![image](/img/20171214_211228-02.jpeg)
+
+So as you can see this is not lightweight setup at all but rather just getting out there. I've already highlighted a few things that I will definitely start taking weight off. The sleeping setup is my first concern and also obviously stuff that I took that wasn't really needed, such as a the leatherman and extra un-used clothing. The jacket could really get slimmed down. {class="col-span-2 justify-center"}
