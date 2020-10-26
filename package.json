@@ -3,7 +3,7 @@
   "version": "5.0.0",
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
-    "serve": "run-s bundle:*",
+    "serve": "npm-run-all --parallel bundle:*",
     "bundle:eleventy": "cross-env ELEVENTY_ENV=dev npx eleventy --serve --quiet",
     "bundle:tailwind": "parcel src/assets/css/* --dist-dir dist/assets/css",
     "build": "run-s prod:*",
