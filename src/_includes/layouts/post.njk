@@ -4,8 +4,6 @@ templateClass: tmpl-post
 ---
 <h2>{{ title }}</h2>
 
-<div class="grid gap-4 grid-cols-2" style="align-items: center;">
+<div class="grid gap-4 grid-cols-2">
     {{ content | safe }}
 </div>
-
-{# <p><a href="{{ '/posts' | url }}">← Posts</a></p> #}
