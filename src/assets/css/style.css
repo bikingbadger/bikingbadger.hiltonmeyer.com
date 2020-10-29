@@ -1,0 +1,11 @@
+body {
+  font-size: 18px;
+}
+
+p {
+  max-width: min(70ch, 100%);
+}
+
+#mapid {
+  height: 70vh;
+}

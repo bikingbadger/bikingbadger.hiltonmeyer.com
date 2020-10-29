@@ -47,20 +47,21 @@
     {% endif %}
   </head>
 
-  <body class="bg-gray-100 text-grey-900 leading-normal text-base tracking-normal">
+  <body >
 
-    <header class="grid bg-fixed lg:bg-center bg-no-repeat bg-cover justify-center ">
-      <h1 class="md:text-6xl font-black text-teal-900 uppercase text-center">Biking Badger</h1>
-      <div class="font-black text-teal-900 text-center p-4">israel bikepacking adventures</div>
+    <header >
+      <img src="/assets/img/bikingbadger.svg"  alt="logo">
+      <h1 >Biking Badger</h1>
+      <div >israel bikepacking adventures</div>
     </header>
 
-    <main class="container mx-auto">
-      <div class="sticky w-full top-0 bg-teal-300 text-teal-900 grid justify-center grid-flow-col">
+    <main>
+      <div>
         {%- for nav in collections.nav -%}
-          <a class="text-teal-800 hover:text-white no-underline uppercase mx-2 " href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
+          <a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
         {%- endfor -%}
       </div>
-      <div class="m-4 ">{{ content | safe }}</div>
+      <div>{{ content | safe }}</div>
     </main>
 
     <footer></footer>
