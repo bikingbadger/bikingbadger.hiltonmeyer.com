@@ -50,17 +50,19 @@
   <body >
 
     <header >
-      <img src="/assets/img/bikingbadger.svg"  alt="logo">
-      <h1 >Biking Badger</h1>
-      <div >israel bikepacking adventures</div>
+      <img src="https://res.cloudinary.com/bikepacking/image/upload/v1604565067/BikingBadger-Color_gtubaq.png"  alt="logo">
+      <div>
+        <h1>Biking Badger</h1>
+        <p>israel bikepacking adventures</p>
+      </div>
     </header>
 
     <main>
-      <div>
+      <nav>
         {%- for nav in collections.nav -%}
           <a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
         {%- endfor -%}
-      </div>
+      </nav>
       <div>{{ content | safe }}</div>
     </main>
 

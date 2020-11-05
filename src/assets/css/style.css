@@ -23,12 +23,22 @@
 
 p {
   max-width: min(70ch, 100%);
-}
-
-body {
-  color: ;
+  align-self: center;
 }
 
 #mapid {
   height: 70vh;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+}
+
+nav {
+  display: grid;
+  grid-auto-flow: column;
 }
