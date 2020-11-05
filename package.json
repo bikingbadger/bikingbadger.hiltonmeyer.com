@@ -4,8 +4,7 @@
   "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
     "serve": "cross-env ELEVENTY_ENV=dev npx eleventy --serve --quiet",
-    "build": "run-s prod:*",
-    "prod:eleventy": "eleventy"
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
