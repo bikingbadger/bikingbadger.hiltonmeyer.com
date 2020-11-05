@@ -1,0 +1,44 @@
+:root {
+  /* --background-body: #fff; */
+  /* --background: #efefef; */
+  /* --background-alt: #f7f7f7; */
+  /* --selection: #9e9e9e; */
+  --text-main: #293748;
+  --text-bright: #293748;
+  /* --text-muted: #70777f; */
+  /* --links: #0076d1; */
+  /* --focus: #0096bfab; */
+  /* --border: #dbdbdb; */
+  --code: #293748;
+  /* --animation-duration: 0.1s; */
+  /* --button-hover: #ddd; */
+  /* --scrollbar-thumb: color-mod(var(--button-hover) lightness(-3%)); */
+  /* --scrollbar-thumb-hover: color-mod(var(--button-hover) lightness(-10%)); */
+  /* --form-placeholder: #949494; */
+  --form-text: #293748;
+  /* --variable: #39a33c; */
+  /* --highlight: #ff0; */
+  /* --select-arrow: svg-load('./assets/select-arrow.svg', fill: #161f27); */
+}
+
+p {
+  max-width: min(70ch, 100%);
+  align-self: center;
+}
+
+#mapid {
+  height: 70vh;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+}
+
+nav {
+  display: grid;
+  grid-auto-flow: column;
+}
