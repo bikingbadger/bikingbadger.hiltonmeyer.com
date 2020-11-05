@@ -5,19 +5,19 @@
   "scripts": {
     "serve": "npm-run-all --parallel bundle:*",
     "bundle:eleventy": "cross-env ELEVENTY_ENV=dev npx eleventy --serve --quiet",
-    "bundle:tailwind": "parcel src/assets/css/* --dist-dir dist/assets/css",
+    "bundle:tailwind": "parcel build src/assets/css/* --dist-dir dist/assets/css",
     "build": "run-s prod:*",
     "prod:eleventy": "eleventy",
     "prod:tailwind": "parcel build src/assets/css/* --dist-dir dist/assets/css"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/11ty/eleventy-base-blog.git"
+    "url": "git://github.com/11tybikingbadger/bikingbadger.com.git"
   },
   "author": {
-    "name": "Zach Leatherman",
-    "email": "zachleatherman@gmail.com",
-    "url": "https://zachleat.com/"
+    "name": "Hilton Meyer",
+    "email": "development@hiltonmeyer.com",
+    "url": "https://hiltonmeyer.com/"
   },
   "license": "MIT",
   "bugs": {
